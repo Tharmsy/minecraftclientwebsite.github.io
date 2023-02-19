@@ -1,103 +1,91 @@
 /* CSS Styles */
 body {
-    background-color: #212121;
-    font-family: 'Open Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  header {
-    background-color: #B71C1C;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
+  background-color: #212121;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #B71C1C;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 0px 0px 20px #fff;
+}
+
+main {
+  padding: 40px 0;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #B71C1C;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+#features {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.feature {
+  width: 300px;
+  margin: 0 20px;
+  text-align: center;
+  box-shadow: 0px 0px 20px #B71C1C;
+  padding: 30px;
+  background-color: #212121;
+}
+
+.feature h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #B71C1C;
+  text-shadow: 0px 0px 10px #fff;
+}
+
+.feature p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
   h1 {
-    font-size: 36px;
-    font-weight: 700;
-    margin: 0;
-    text-shadow: 0px 0px 20px #fff;
+    font-size: 28px;
   }
-  
-  main {
-    padding: 40px 0;
-  }
-  
+
   h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #B71C1C;
+    font-size: 20px;
   }
-  
-  p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0 0 20px;
-    color: #fff;
-  }
-  
-  #features {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-  }
-  
+
   .feature {
-    width: 300px;
-    margin: 0 20px;
-    text-align: center;
-    box-shadow: 0px 0px 20px #B71C1C;
-    padding: 30px;
-    background-color: #212121;
+    width: 100%;
+    margin: 20px 0;
   }
-  
-  .feature h3 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: #B71C1C;
-    text-shadow: 0px 0px 10px #fff;
-  }
-  
-  .feature p {
-    font-size: 18px;
-    line-height: 1.6;
-    margin: 0;
-    color: #fff;
-  }
-  
-  footer {
-    background-color: #B71C1C;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 28px;
-    }
-  
-    h2 {
-      font-size: 20px;
-    }
-  
-    .feature {
-      width: 100%;
-      margin: 20px 0;
-    }
-  }
-  #test
+}
