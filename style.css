@@ -1,1 +1,60 @@
+/* CSS Styles */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+#header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0px 0px 30px #333;
+}
+
+#main {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+#features {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feature {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  background-color: #333;
+  text-align: center;
+  border: 1px solid #666;
+  box-shadow: 0px 0px 5px #666;
+}
+
+.feature h3 {
+  margin-top: 20px;
+  color: #fff;
+}
+
+.feature p {
+  margin: 20px;
+  color: #fff;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0px 0px 30px #333;
+}
